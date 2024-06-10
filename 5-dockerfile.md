@@ -57,11 +57,11 @@ La opción -t se utiliza para etiquetar la imagen que se está construyendo con 
 **¿Cuántos pasos se han ejecutado?**
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+<img width="647" alt="image" src="https://github.com/juanfcarrillo/2024A-ISWD633-Practica4/assets/78522923/e97c6cae-e082-4a97-80d8-25cc12a4b767">
 
 **Modificar el archivo index.html para incluir su nombre**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
-
+Se han ejecutado 3 pasos
 ## Mecanismo de caché
 Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso de construcción y evitar la repetición de pasos que no han cambiado. Cada instrucción en un Dockerfile crea una capa en la imagen final. Docker intenta reutilizar las capas de una construcción anterior si no han cambiado, lo que reduce significativamente el tiempo de construcción.
 
@@ -76,10 +76,11 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 ```
 
 ### ¿Con que puerto host se está realizando el mapeo?
-# COMPLETAR CON LA RESPUESTA
+80:80 
 
 **¿Qué es una imagen huérfana?**
-# COMPLETAR CON LA RESPUESTA
+
+Son imagenes que no tienen puntos de control
 
 ### Identificar imágenes huérfanas
 ```
